@@ -96,7 +96,7 @@ object ManifestPatcher {
                             ) {
                                 private var addDebuggable = debuggable
                                 private var addLegacyStorage = true
-                                private var useVmSafeMode = true
+                                private var useVmSafeMode = false
                                 private var addUseClearTextTraffic = true
 
                                 override fun attr(ns: String?, name: String, resourceId: Int, type: Int, value: Any?) {
